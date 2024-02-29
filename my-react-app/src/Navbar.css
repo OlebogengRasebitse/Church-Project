@@ -1,0 +1,30 @@
+/* Style the navigation bar */
+nav {
+    background-color: #333; /* Set background color */
+  }
+  
+  /* Style the list items */
+  nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  /* Style the list items */
+  nav ul li {
+    display: inline; /* Display items horizontally */
+  }
+  
+  /* Style the links */
+  nav ul li a {
+    display: block; 
+    padding: 10px 20px; 
+    color: #fff; 
+    text-decoration: none; /* Remove underline */
+  }
+  
+  /* Change link color on hover */
+  nav ul li a:hover {
+    background-color: #555; /* Change background color */
+  }
+  
