@@ -19,9 +19,9 @@ function CustomNavbar() {
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/" onClick={toggleNavbar}>Home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={toggleNavbar}>About</Nav.Link>
-            <Nav.Link as={Link} to="/contact" onClick={toggleNavbar}>Contact</Nav.Link>
             <Nav.Link as={Link} to="/blog" onClick={toggleNavbar}>Blog</Nav.Link>
             <Nav.Link as={Link} to="/donations" onClick={toggleNavbar}>Donations</Nav.Link>
+            <Nav.Link as={Link} to="/contact" onClick={toggleNavbar}>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
