@@ -2,7 +2,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import About from './Pages/About';
-import Contact from './Pages/Contact';
+import Contact from './Pages/Contact/Contact';
 import Blog from './Pages/Blog';
 import Donations from './Pages/Donations';
 import 'bootstrap/dist/css/bootstrap.min.css';
