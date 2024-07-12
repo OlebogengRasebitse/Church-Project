@@ -11,7 +11,7 @@ function CustomNavbar() {
   };
 
   return (
-    <Navbar bg="light" expand="lg" expanded={expanded}>
+    <Navbar className='navbar fixed-top' bg="light" expand="" expanded={expanded}>
       <Container>
         <Navbar.Brand as={Link} to="/">Brand</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} />

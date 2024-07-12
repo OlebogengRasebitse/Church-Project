@@ -44,14 +44,14 @@
 
 
 /* NAVBAR */
-.navbar {
+/* .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #161616;
   color: white;
-}
+} */
 
 .logo img {
   width: 40px; /* Adjust as needed */
