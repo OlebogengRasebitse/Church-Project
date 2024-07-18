@@ -8,22 +8,22 @@ import Donations from './Pages/Donations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from './components/CustomNavbar';
 import Hero from './components/Hero';
+import CustomFooter from './components/CustomFooter';
 
 function App() {
-
   return (
-      <div className="container mt-4">
-           <CustomNavbar />
-           <Hero />
-        <Routes>
-         <Route path='/' element={<Home/>} />
-         <Route path='/about' element={<About/>} />
-         <Route path='/contact' element={<Contact/>} />
-         <Route path='/blog' element={<Blog/>} />
-         <Route path='/Donations' element={<Donations/>} />
-       </Routes>
-
-      </div>
+    <div className="container mt-4">
+      <CustomNavbar />
+      <Hero />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/Donations' element={<Donations />} />
+      </Routes>
+      <CustomFooter />
+    </div>
   )
 }
 
