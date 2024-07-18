@@ -11,12 +11,12 @@ function CustomNavbar() {
   };
 
   return (
-    <Navbar className='navbar fixed-top' bg="light" expand="" expanded={expanded}>
+    <Navbar className='navbar fixed-top' bg="light" expand="lg" expanded={expanded}>
       <Container>
         <Navbar.Brand as={Link} to="/">Brand</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleNavbar} />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" onClick={toggleNavbar}>Home</Nav.Link>
             <Nav.Link as={Link} to="/about" onClick={toggleNavbar}>About</Nav.Link>
             <Nav.Link as={Link} to="/blog" onClick={toggleNavbar}>Blog</Nav.Link>
