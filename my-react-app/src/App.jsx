@@ -1,7 +1,7 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
-import About from './Pages/About';
+import Media from './Pages/Media';
 import Contact from './Pages/Contact/Contact';
 import Blog from './Pages/Blog';
 import Donations from './Pages/Donations';
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/media' element={<Media />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/Donations' element={<Donations />} />

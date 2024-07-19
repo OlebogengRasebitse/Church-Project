@@ -18,7 +18,7 @@ function CustomNavbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link as={Link} to="/" onClick={toggleNavbar}>Home</Nav.Link>
-            <Nav.Link as={Link} to="/about" onClick={toggleNavbar}>About</Nav.Link>
+            <Nav.Link as={Link} to="/media" onClick={toggleNavbar}>Media</Nav.Link>
             <Nav.Link as={Link} to="/blog" onClick={toggleNavbar}>Blog</Nav.Link>
             <Nav.Link as={Link} to="/donations" onClick={toggleNavbar}>Donations</Nav.Link>
             <Nav.Link as={Link} to="/contact" onClick={toggleNavbar}>Contact</Nav.Link>
