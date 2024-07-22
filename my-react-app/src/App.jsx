@@ -9,10 +9,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from './components/CustomNavbar';
 import Hero from './components/Hero';
 import CustomFooter from './components/CustomFooter';
+import { Helmet } from 'react-helmet';
 
 function App() {
   return (
     <div className="container mt-4">
+      <div>
+        <Helmet>
+          <title>My Church</title>
+          <meta name="description" content="Welcome to our church. We are a community of believers." />
+          <meta name="keywords" content="Church, Community, Faith" />
+        </Helmet>
+      </div>
       <CustomNavbar />
       <Hero />
       <Routes>
