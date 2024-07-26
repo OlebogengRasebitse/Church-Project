@@ -1,0 +1,29 @@
+.blog-container {
+    margin: 20px;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .profile-image {
+    width: 20%;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-article {
+    max-width: 600px;
+  }
+  
+  .profile-article h4 {
+    margin-bottom: 10px;
+  }
+  
+  .profile-article p {
+    margin: 0;
+  }
+  
