@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Media from './Pages/Media';
 import Contact from './Pages/Contact/Contact';
-import Blog from './Pages/Blog';
+import Blog from './Pages/Blog/Blog';
 import Donations from './Pages/Donations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from './components/CustomNavbar';
@@ -16,9 +16,10 @@ function App() {
     <div className="container mt-4">
       <div>
         <Helmet>
-          <title>My Church</title>
+          <title>Church Great Commission</title>
           <meta name="description" content="Welcome to our church. We are a community of believers." />
           <meta name="keywords" content="Church, Community, Faith" />
+          <link rel="icon" href="/src/images/Logo.png" />
         </Helmet>
       </div>
       <CustomNavbar />
