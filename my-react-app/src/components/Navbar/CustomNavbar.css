@@ -1,0 +1,35 @@
+.ms-auto .nav-link {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .ms-auto .nav-link:hover {
+    color: white;
+  }
+  
+  .ms-auto .nav-link:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 1px;
+    content: '';
+    background: #045B31;
+    visibility: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s, height 0.3s;
+  }
+  
+  .ms-auto .nav-link:hover:after {
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+  }
+  
+  
+  

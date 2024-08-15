@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Logo from "../images/Logo.png"
+import './Navbar/CustomNavbar.css'
 
 function CustomNavbar() {
   const [expanded, setExpanded] = useState(false);
