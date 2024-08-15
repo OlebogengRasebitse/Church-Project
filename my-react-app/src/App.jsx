@@ -8,20 +8,19 @@ import Donations from './Pages/Donations';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CustomNavbar from './components/CustomNavbar';
 import Hero from './components/Hero';
-import CustomFooter from './components/CustomFooter';
+import CustomFooter from './components/Footer/CustomFooter';
 import { Helmet } from 'react-helmet';
 
 function App() {
   return (
-    <div className="container mt-4">
-      <div>
+    <div>
         <Helmet>
           <title>Church Great Commission</title>
           <meta name="description" content="Welcome to our church. We are a community of believers." />
           <meta name="keywords" content="Church, Community, Faith" />
           <link rel="icon" href="/src/images/Logo.png" />
         </Helmet>
-      </div>
+  <div className="d-flex flex-column min-vh-100">
       <CustomNavbar />
       <Hero />
       <Routes>
@@ -32,8 +31,9 @@ function App() {
         <Route path='/Donations' element={<Donations />} />
       </Routes>
       <CustomFooter />
+      </div>
     </div>
-  )
+  );
 }
 
 export default App

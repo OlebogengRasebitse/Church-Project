@@ -1,31 +1,76 @@
 .footer {
-    position: static;
-    bottom: 0;
-    width: 100%;
-    left: 0;
-    right: 0;
-    padding: 1px 0;
-    z-index: 1000;
-  }
-  
-  .footer .container {
-    max-width: 100%;
-  }
-  
-  .footer .social-icons {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  z-index: 1000;
+}
+
+/* body {
+  display: flex;
+  flex-direction: center;
+  min-height: 100vh;
+} */
+
+/* .main-content {
+  flex: 1;
+  background-color: #045B31;
+} */
+
+
+.footer .container {
+  max-width: 100%;
+  background-color: 248, 249, 250;
+}
+
+.footer .social-icons {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  color: #000;
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+  color: #045B31;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center; /* Center the list items */
+  gap: 20px; /* Space between each list item */
+  padding: 10px 0; /* Add some padding around the list */
+
+}
+
+/* Copy Rights */
+.nav-link {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0); 
+  font-size: 14px;
+  padding: 10px 0; /* Padding around the text */
+  font-family: Arial, sans-serif; /* Font style */
+}
+
+.nav-link:hover {
+  color: #045B31; 
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/*Desktop*/
+@media (min-width: 1023px) {
+  .list-unstyled {
     display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
   }
-  
-  .footer .footer-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer .footer-links li {
-    margin: 0 15px;
-  }
-  
+}
