@@ -3,14 +3,12 @@ import { Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './CustomFooter.css';  // Import the CSS file
+import './CustomFooter.css';
 
 function CustomFooter() {
   return (
     <footer className='footer bg-light text-center text-lg-start'>
-      <Container className='p-4'>
-        <Row className='justify-content-center'>
-          <Col lg={6} className='mb-4 mb-lg-0'>
+      <Container className='container'>
             <div className='social-icons'>
               <a href="https://facebook.com" className='me-3'><FaFacebook /></a>
               <a href="https://twitter.com" className='me-3'><FaTwitter /></a>
@@ -21,12 +19,11 @@ function CustomFooter() {
               <li><Link to="/privacy">Privacy Policy</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
             </ul>
-          </Col>
-        </Row>
-      </Container>
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+    
+      <div className='nav-link' style={{ backgroundColor: 'rgba(0, 0, 0, 0)' }}>
         © {new Date().getFullYear()} Brand. All Rights Reserved.
       </div>
+      </Container>
     </footer>
   );
 }
