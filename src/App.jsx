@@ -1,6 +1,6 @@
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home/Home';
+import Home from './Pages/Media/Home';
 import Media from './Pages/Media';
 import Contact from './Pages/Contact/Contact';
 import Blog from './Pages/Blog/Blog';
@@ -18,7 +18,7 @@ function App() {
           <title>Church Great Commission</title>
           <meta name="description" content="Welcome to our church. We are a community of believers." />
           <meta name="keywords" content="Church, Community, Faith" />
-          <link rel="icon" href="/src/images/Logo.png" />
+          <link rel="icon" href="/src/images/White Logo.png" />
         </Helmet>
   <div className="d-flex flex-column min-vh-100">
       <CustomNavbar />
